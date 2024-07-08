@@ -1,0 +1,24 @@
+{
+  "name": "openai-playground",
+  "version": "1.0.0",
+  "description": "OpenAI playground to play with OpenAI APIs.",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "openaitest": "node -r ts-node/register --env-file=.env src/openai-test.ts",
+    "start": "node -r ts-node/register --env-file=.env"
+  },
+  "keywords": [
+    "openai",
+    "playground"
+  ],
+  "author": "zen.code.symphony@gmail.com",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "openai": "^4.52.3"
+  }
+}
